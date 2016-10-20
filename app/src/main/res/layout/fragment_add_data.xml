@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10px"
+    tools:context="com.mohit.puchosampleapp.Fragment.FragmentAddData">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="Title"
+        android:ems="10"
+        android:id="@+id/etTitle" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:hint="Description"
+        android:lines="1"
+        android:maxLines="10"
+        android:textAlignment="viewStart"
+        android:layout_gravity="start"
+        android:id="@+id/etDetails" />
+    </LinearLayout>
+
+    <Button
+        android:text="Save Blog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAddData"
+        android:layout_margin="30dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorToolbarIcon"
+        android:background="#7595f2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

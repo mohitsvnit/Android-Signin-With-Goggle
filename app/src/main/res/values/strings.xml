@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PuchoSampleApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_login_screen">Login</string>
+    <string name="chooseLanguage">Choose Language</string>
+
+    <string-array name="chooseLanguages">
+        <item>English</item>
+        <item>Hindi</item>
+        <item>French</item>
+    </string-array>
+</resources>
